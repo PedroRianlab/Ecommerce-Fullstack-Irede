@@ -1,0 +1,42 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsprojhttps://gemini.google.com/u/1/app/895e31d04c9d210e
+*.sln
+*.sw?
+
+#Deixando mais completo
+
+# Ignora node_modules em qualquer nível do projeto (raiz, front ou back)
+**/node_modules/
+
+# Ignora pastas de build/compilação em qualquer nível
+**/dist/
+**/build/
+
+# Ignora arquivos de ambiente (senhas e chaves de API)
+.env
+.env.*
+!.env.example
+
+# Ignora o cache do TypeScript e do Vite
+.tsconfig.tsbuildinfo
+.vite/
